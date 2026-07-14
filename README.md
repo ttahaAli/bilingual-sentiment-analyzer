@@ -19,6 +19,11 @@ During testing, a fascinating linguistic edge case was discovered using the phra
 - **CNN Classifier** ➔ Predicted `Neutral` (Balanced out the positive and negative phrase structures).
 - **Transformer** ➔ Predicted `Negative` (Reflects real-world e-commerce data trends where logistics failures heavily weigh down customer sentiment).
 
+### 🧠 Key Engineering Takeaways
+- **Resource Caching**: Implemented Streamlit `@st.cache_resource` to isolate large deep learning network weights in memory, enabling real-time CPU evaluation.
+- **Dependency Isolation**: Isolated local CPU builds from heavy cloud GPU configurations, building a flexible cross-platform environment setup.
+- **Multilingual Tokenization**: Configured an explicit `XLMRobertaTokenizer` architecture to handle non-standard subword patterns in Roman Urdu text.
+
 ## 💻 How to Run Locally
 1. Clone the repo: `git clone https://github.com/ttahaAli/bilingual-sentiment-analyzer`
 2. Install dependencies: `pip install -r requirements.txt`
