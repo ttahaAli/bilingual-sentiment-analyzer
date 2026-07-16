@@ -3,7 +3,10 @@
 An end-to-end Deep Learning workspace that compares three generations of NLP architectures (ANN, 1D-CNN, and Transformer) classifying customer reviews.
 
 ## 🚀 Live Demo
-[Insert Streamlit Cloud Link Here Later]
+👉 **[Experience the Live Application Here](https://bilingual-sentiment-analyzer-gaaiuhbvd3a2rsn5ec6ziu.streamlit.app)**
+
+This interactive web dashboard allows users to test the pipeline live by inputting custom customer reviews in Roman Urdu or English. The cloud application processes raw text input on the fly and runs simultaneous inference across the deployed model architectures. By visualizing live prediction distributions side by side, the application provides an interactive benchmark demonstrating how different deep learning approaches extract linguistic patterns and handle code-switched or mixed-language datasets.
+
 
 ## 🛠️ Project Architecture & Comparison
 This project evaluates text simultaneously across three distinct methodologies:
